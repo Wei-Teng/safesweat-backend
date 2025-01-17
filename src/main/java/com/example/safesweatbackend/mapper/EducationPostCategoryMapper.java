@@ -1,7 +1,7 @@
 package com.example.safesweatbackend.mapper;
 
-import com.example.safesweatbackend.model.dto.EducationPostCategoryDto;
-import com.example.safesweatbackend.model.entity.EducationPostCategory;
+import com.example.safesweatbackend.educationpost.EducationPostCategoryDto;
+import com.example.safesweatbackend.educationpost.EducationPostCategory;
 import org.mapstruct.Mapper;
 
 import java.util.List;

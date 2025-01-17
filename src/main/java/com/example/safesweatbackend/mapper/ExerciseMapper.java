@@ -1,7 +1,7 @@
 package com.example.safesweatbackend.mapper;
 
-import com.example.safesweatbackend.model.dto.ExerciseDto;
-import com.example.safesweatbackend.model.entity.Exercise;
+import com.example.safesweatbackend.workoutplan.ExerciseDto;
+import com.example.safesweatbackend.workoutplan.Exercise;
 import org.mapstruct.Mapper;
 
 import java.util.List;

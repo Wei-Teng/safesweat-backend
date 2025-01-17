@@ -1,7 +1,7 @@
 package com.example.safesweatbackend.mapper.backup;
 
-import com.example.safesweatbackend.model.dto.backup.UserBackupDataDto;
-import com.example.safesweatbackend.model.entity.backup.UserBackupData;
+import com.example.safesweatbackend.userbackup.UserBackupDataDto;
+import com.example.safesweatbackend.userbackup.UserBackupData;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

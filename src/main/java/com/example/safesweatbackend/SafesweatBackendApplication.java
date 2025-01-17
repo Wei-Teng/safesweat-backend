@@ -1,5 +1,7 @@
 package com.example.safesweatbackend;
 
+import com.example.safesweatbackend.base.FitnessAppMember;
+import com.example.safesweatbackend.base.SystemAdministrator;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

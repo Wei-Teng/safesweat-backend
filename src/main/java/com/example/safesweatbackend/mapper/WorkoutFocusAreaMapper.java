@@ -1,7 +1,7 @@
 package com.example.safesweatbackend.mapper;
 
-import com.example.safesweatbackend.model.dto.FocusAreaDto;
-import com.example.safesweatbackend.model.entity.FocusArea;
+import com.example.safesweatbackend.workoutplan.FocusAreaDto;
+import com.example.safesweatbackend.workoutplan.FocusArea;
 import org.mapstruct.Mapper;
 
 import java.util.List;

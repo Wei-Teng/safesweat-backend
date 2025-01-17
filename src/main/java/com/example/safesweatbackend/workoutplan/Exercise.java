@@ -1,0 +1,25 @@
+package com.example.safesweatbackend.workoutplan;
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.UUID;
+
+@Entity(name = "exercise")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Exercise {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private UUID exerciseId;
+
+    @Column(name = "name", nullable = false)
+    private String name;
+
+    @Column(name = "exercise_key", nullable = false)
+    private String exerciseKey;
+}
