@@ -38,20 +38,3 @@ dependencies {
     testImplementation 'com.h2database:h2'
 
 }
-
-tasks.named('test') {
-    useJUnitPlatform()
-}
-
-azurewebapp {
-    subscription = '00ea6119-1f39-4184-8ebc-eb02a96c10bc'
-    resourceGroup = 'safesweat-backend_group'
-    appName = 'safesweat-backend'
-    pricingTier = 'F1'
-    region = 'southeastasia'
-    runtime {
-        os = 'Windows'
-        webContainer = 'Java SE'
-        javaVersion = 'Java 17'
-    }
-}
